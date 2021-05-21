@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		15321167F3AAE2DC190356B2 /* Pods_ZAMapVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZAMapVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		747CBBC22657543000C4DB34 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		74DADECF26573C8600B5FAFD /* ZAMapVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZAMapVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DADED226573C8600B5FAFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74DADED326573C8600B5FAFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 				74DADED326573C8600B5FAFD /* AppDelegate.m */,
 				74DADED826573C8600B5FAFD /* ViewController.h */,
 				74DADED926573C8600B5FAFD /* ViewController.m */,
+				747CBBC22657543000C4DB34 /* PrefixHeader.pch */,
 				74DADEDB26573C8600B5FAFD /* Main.storyboard */,
 				74DADEDE26573C8800B5FAFD /* Assets.xcassets */,
 				74DADEE026573C8800B5FAFD /* LaunchScreen.storyboard */,
@@ -524,7 +526,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZAMapVC/PrefixHeader.pch";
 				INFOPLIST_FILE = ZAMapVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +547,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZAMapVC/PrefixHeader.pch";
 				INFOPLIST_FILE = ZAMapVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
