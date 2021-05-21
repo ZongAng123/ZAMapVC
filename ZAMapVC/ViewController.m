@@ -6,6 +6,10 @@
 //
 
 #import "ViewController.h"
+#import <MAMapKit/MAMapKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+//获取当前位置经纬度
+#import <AMapLocationKit/AMapLocationKit.h>
 
 @interface ViewController ()
 

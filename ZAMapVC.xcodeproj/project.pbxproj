@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -89,7 +89,6 @@
 				EC3B5EC636D0C4FEE708E76D /* Pods-ZAMapVC.debug.xcconfig */,
 				AC52BB7B5F20BD6FD8F92827 /* Pods-ZAMapVC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -532,7 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.ZAMapVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -551,7 +550,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.ZAMapVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
