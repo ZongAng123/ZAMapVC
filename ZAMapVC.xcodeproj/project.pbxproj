@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		747CBBC626577E3800C4DB34 /* ZAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747CBBC526577E3700C4DB34 /* ZAMapViewController.m */; };
 		74DADED426573C8600B5FAFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DADED326573C8600B5FAFD /* AppDelegate.m */; };
 		74DADEDA26573C8600B5FAFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DADED926573C8600B5FAFD /* ViewController.m */; };
 		74DADEDD26573C8600B5FAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DADEDB26573C8600B5FAFD /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		15321167F3AAE2DC190356B2 /* Pods_ZAMapVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZAMapVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		747CBBC22657543000C4DB34 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		747CBBC426577E3700C4DB34 /* ZAMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAMapViewController.h; sourceTree = "<group>"; };
+		747CBBC526577E3700C4DB34 /* ZAMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAMapViewController.m; sourceTree = "<group>"; };
 		74DADECF26573C8600B5FAFD /* ZAMapVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZAMapVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DADED226573C8600B5FAFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74DADED326573C8600B5FAFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +104,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		747CBBC326577E2100C4DB34 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				747CBBC426577E3700C4DB34 /* ZAMapViewController.h */,
+				747CBBC526577E3700C4DB34 /* ZAMapViewController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		74DADEC626573C8600B5FAFD = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,7 @@
 		74DADED126573C8600B5FAFD /* ZAMapVC */ = {
 			isa = PBXGroup;
 			children = (
+				747CBBC326577E2100C4DB34 /* Map */,
 				74DADED226573C8600B5FAFD /* AppDelegate.h */,
 				74DADED326573C8600B5FAFD /* AppDelegate.m */,
 				74DADED826573C8600B5FAFD /* ViewController.h */,
@@ -349,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747CBBC626577E3800C4DB34 /* ZAMapViewController.m in Sources */,
 				74DADEDA26573C8600B5FAFD /* ViewController.m in Sources */,
 				74DADED426573C8600B5FAFD /* AppDelegate.m in Sources */,
 				74DADEE526573C8800B5FAFD /* main.m in Sources */,
